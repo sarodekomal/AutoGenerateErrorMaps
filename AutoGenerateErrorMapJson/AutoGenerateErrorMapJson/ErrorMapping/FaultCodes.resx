@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvalidSessionId" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="InvalidAccountId" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="InvalidCurrency" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="InvalidPosId" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RequestNotFound" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="MissingSessionId" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="SessionIdNotGuid" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="InvalidPageInformation" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="InvalidOrderByFormat" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RequestDetailsMissing" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="MissingSearchCriteriaDetails" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="MissingSupplierDetails" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="MissingSupplierId" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="MissingSupplierName" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="MissingSupplierConfigurations" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="MissingSupplierConfiguration" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="InvalidCheckInDate" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="InvalidCheckOutDate" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="CheckOutPriorToCheckInDate" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="InvalidCriteria" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="MissingOccupancyDetails" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="CheckOutExceedsPermittedLimit" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="SingleCallRoomLimit" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="PerRoomGuestLimit" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="AdultCountZero" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="StayDurationLimit" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="ContentNotFoundForSupplier" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="ConnectorMetadataNotFound" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="InvalidVersion" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="InvalidAdultCount" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="InvalidChildAges" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="InvalidChildCount" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="InvalidBounds" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="InvalidCircularRegion" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="InvalidRectangularRegion" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="InvalidHeaders" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="ValidationFailure" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="MissingRoomOccupant" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="MissingStayPeriod" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="InvalidGeocodes" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="MissingOccupantType" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="MissingRoomRate" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="InvalidRoomRatesInRequest" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="MissingRateReferenceId" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <data name="MissingRoomOccupancyDetailsInRate" xml:space="preserve">
+    <value>78</value>
+  </data>
+  <data name="InvalidRoomOccupancy" xml:space="preserve">
+    <value>79</value>
+  </data>
+  <data name="InvalidMinRating" xml:space="preserve">
+    <value>80</value>
+  </data>
+  <data name="InvalidMaxRating" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="MinHotelRatingGreaterThanMax" xml:space="preserve">
+    <value>82</value>
+  </data>
+  <data name="InvalidMinHotelPriceFilter" xml:space="preserve">
+    <value>83</value>
+  </data>
+  <data name="InvalidMaxHotelPriceFilter" xml:space="preserve">
+    <value>84</value>
+  </data>
+  <data name="MinHotelPriceGreaterThanMax" xml:space="preserve">
+    <value>85</value>
+  </data>
+  <data name="MissingPerBookingRate" xml:space="preserve">
+    <value>86</value>
+  </data>
+  <data name="SelectedRoomNotAvailable" xml:space="preserve">
+    <value>88</value>
+  </data>
+  <data name="InvalidChildAgeRange" xml:space="preserve">
+    <value>90</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>91</value>
+  </data>
+  <data name="InvalidCountryCode" xml:space="preserve">
+    <value>92</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>93</value>
+  </data>
+  <data name="InvalidContentPreferences" xml:space="preserve">
+    <value>96</value>
+  </data>
+  <data name="InvalidRadius" xml:space="preserve">
+    <value>98</value>
+  </data>
+  <data name="InvalidRateIdFormat" xml:space="preserve">
+    <value>99</value>
+  </data>
+  <data name="InvalidRateId" xml:space="preserve">
+    <value>100</value>
+  </data>
+  <data name="InvalidRateForRequestedHotelId" xml:space="preserve">
+    <value>101</value>
+  </data>
+  <data name="InvalidRateForRequestedSupplierId" xml:space="preserve">
+    <value>102</value>
+  </data>
+  <data name="RateIdsForMultiplePerBooking" xml:space="preserve">
+    <value>103</value>
+  </data>
+  <data name="RateIdsForPerBookingAndPerRoom" xml:space="preserve">
+    <value>104</value>
+  </data>
+  <data name="MissingRateIds" xml:space="preserve">
+    <value>108</value>
+  </data>
+  <data name="HotelNotFound" xml:space="preserve">
+    <value>112</value>
+  </data>
+  <data name="InvalidSupplierIdInSupplierSpecificOptions" xml:space="preserve">
+    <value>113</value>
+  </data>
+  <data name="InvalidCulture" xml:space="preserve">
+    <value>117</value>
+  </data>
+  <data name="InvalidLocationId" xml:space="preserve">
+    <value>118</value>
+  </data>
+  <data name="DuplicateRateId" xml:space="preserve">
+    <value>119</value>
+  </data>
+  <data name="InvalidRateIdsCombination" xml:space="preserve">
+    <value>120</value>
+  </data>
+  <data name="MissingLocationDetails" xml:space="preserve">
+    <value>121</value>
+  </data>
+  <data name="SupplierConfigurationNotAvailable" xml:space="preserve">
+    <value>125</value>
+  </data>
+  <data name="MissingConnectorMetadata" xml:space="preserve">
+    <value>127</value>
+  </data>
+  <data name="InvalidOccupancyForRoom" xml:space="preserve">
+    <value>128</value>
+  </data>
+  <data name="InvalidGuestCountForPerRoom" xml:space="preserve">
+    <value>129</value>
+  </data>
+  <data name="SameDayBookingNotAllowed" xml:space="preserve">
+    <value>130</value>
+  </data>
+  <data name="UnSupportedCulture" xml:space="preserve">
+    <value>131</value>
+  </data>
+  <data name="UnSupportedRateTypes" xml:space="preserve">
+    <value>132</value>
+  </data>
+  <data name="MissingGuestDistribution" xml:space="preserve">
+    <value>133</value>
+  </data>
+  <data name="MissingBookingContactInformation" xml:space="preserve">
+    <value>134</value>
+  </data>
+  <data name="InvalidCreditCardType" xml:space="preserve">
+    <value>135</value>
+  </data>
+  <data name="InvalidCreditCardIssuedBy" xml:space="preserve">
+    <value>136</value>
+  </data>
+  <data name="CreditCardNotRequired" xml:space="preserve">
+    <value>137</value>
+  </data>
+  <data name="CreditCardRequired" xml:space="preserve">
+    <value>138</value>
+  </data>
+  <data name="UnSupportedSpecialRequest" xml:space="preserve">
+    <value>139</value>
+  </data>
+  <data name="UnSupportedRecordLocator" xml:space="preserve">
+    <value>140</value>
+  </data>
+  <data name="UnSupportedLoyaltyMembership" xml:space="preserve">
+    <value>141</value>
+  </data>
+  <data name="FirstNameLengthExceeded" xml:space="preserve">
+    <value>142</value>
+  </data>
+  <data name="LastNameLengthExceeded" xml:space="preserve">
+    <value>143</value>
+  </data>
+  <data name="InvalidFirstName" xml:space="preserve">
+    <value>144</value>
+  </data>
+  <data name="InvalidLastName" xml:space="preserve">
+    <value>145</value>
+  </data>
+  <data name="InvalidPassengerInformation" xml:space="preserve">
+    <value>146</value>
+  </data>
+  <data name="MissingBookingContactNameInformation" xml:space="preserve">
+    <value>147</value>
+  </data>
+  <data name="MissingContactFirstName" xml:space="preserve">
+    <value>148</value>
+  </data>
+  <data name="MissingContactLastName" xml:space="preserve">
+    <value>149</value>
+  </data>
+  <data name="InvalidContactInformation" xml:space="preserve">
+    <value>150</value>
+  </data>
+  <data name="InvalidPhoneInformation" xml:space="preserve">
+    <value>151</value>
+  </data>
+  <data name="InvalidAddressInformation" xml:space="preserve">
+    <value>152</value>
+  </data>
+  <data name="MissingAddressLine" xml:space="preserve">
+    <value>153</value>
+  </data>
+  <data name="MissingCityInformation" xml:space="preserve">
+    <value>154</value>
+  </data>
+  <data name="MissingCountryCode" xml:space="preserve">
+    <value>155</value>
+  </data>
+  <data name="MissingEmailInformation" xml:space="preserve">
+    <value>156</value>
+  </data>
+  <data name="InvalidMembershipInformation" xml:space="preserve">
+    <value>157</value>
+  </data>
+  <data name="MissingPerRoomDetails" xml:space="preserve">
+    <value>158</value>
+  </data>
+  <data name="MissingRoomCode" xml:space="preserve">
+    <value>159</value>
+  </data>
+  <data name="MissingCreditCardNumber" xml:space="preserve">
+    <value>160</value>
+  </data>
+  <data name="MissingNameOnCreditCard" xml:space="preserve">
+    <value>161</value>
+  </data>
+  <data name="MissingCreditCardExpiryDate" xml:space="preserve">
+    <value>162</value>
+  </data>
+  <data name="CreditCardExpired" xml:space="preserve">
+    <value>163</value>
+  </data>
+  <data name="MissingCreditCardCvv" xml:space="preserve">
+    <value>164</value>
+  </data>
+  <data name="MissingCreditCardBillingAddress" xml:space="preserve">
+    <value>165</value>
+  </data>
+  <data name="MissingBillingAddressLine1" xml:space="preserve">
+    <value>167</value>
+  </data>
+  <data name="MissingBillingAddressCity" xml:space="preserve">
+    <value>168</value>
+  </data>
+  <data name="MissingBillingAddressCountryCode" xml:space="preserve">
+    <value>169</value>
+  </data>
+  <data name="MissingBillingAddressPostalCode" xml:space="preserve">
+    <value>170</value>
+  </data>
+  <data name="MissingRateInformation" xml:space="preserve">
+    <value>171</value>
+  </data>
+  <data name="MissingRoomPassengerDistribution" xml:space="preserve">
+    <value>172</value>
+  </data>
+  <data name="MissingGuestInformation" xml:space="preserve">
+    <value>173</value>
+  </data>
+  <data name="InvalidGuestInformation" xml:space="preserve">
+    <value>174</value>
+  </data>
+  <data name="MissingAdultGuest" xml:space="preserve">
+    <value>175</value>
+  </data>
+  <data name="MissingCreditCardCityDetails" xml:space="preserve">
+    <value>176</value>
+  </data>
+  <data name="MissingCreditCardStateDetails" xml:space="preserve">
+    <value>177</value>
+  </data>
+  <data name="InvalidCreditCardExpiryMonth" xml:space="preserve">
+    <value>178</value>
+  </data>
+  <data name="InvalidCreditCardExpiryYear" xml:space="preserve">
+    <value>179</value>
+  </data>
+  <data name="SupplierValidation" xml:space="preserve">
+    <value>180</value>
+  </data>
+  <data name="RoomUnavailable" xml:space="preserve">
+    <value>181</value>
+  </data>
+  <data name="ItineraryAlreadyBooked" xml:space="preserve">
+    <value>182</value>
+  </data>
+  <data name="InvalidCreditCardDetails" xml:space="preserve">
+    <value>183</value>
+  </data>
+  <data name="ItineraryNotBooked" xml:space="preserve">
+    <value>184</value>
+  </data>
+  <data name="ItineraryBookedWithLowerPrice" xml:space="preserve">
+    <value>185</value>
+  </data>
+  <data name="MissingChildAge" xml:space="preserve">
+    <value>187</value>
+  </data>
+  <data name="InvalidMultiRoomType" xml:space="preserve">
+    <value>189</value>
+  </data>
+  <data name="CreditCardDeclined" xml:space="preserve">
+    <value>190</value>
+  </data>
+  <data name="InvalidCreditCardSecurityValue" xml:space="preserve">
+    <value>193</value>
+  </data>
+  <data name="InvalidCreditCardSecureCode" xml:space="preserve">
+    <value>194</value>
+  </data>
+  <data name="MissingDetailsInCancellation" xml:space="preserve">
+    <value>199</value>
+  </data>
+  <data name="BookingDoesNotExist" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="BookingAlreadyCancelled" xml:space="preserve">
+    <value>201</value>
+  </data>
+  <data name="StateNotFound" xml:space="preserve">
+    <value>204</value>
+  </data>
+  <data name="InvalidBookingConfirmation" xml:space="preserve">
+    <value>205</value>
+  </data>
+  <data name="MissingCustomerName" xml:space="preserve">
+    <value>206</value>
+  </data>
+  <data name="InvalidCustomerFirstName" xml:space="preserve">
+    <value>207</value>
+  </data>
+  <data name="InvalidCustomerLastName" xml:space="preserve">
+    <value>208</value>
+  </data>
+  <data name="CancellationNotSupported" xml:space="preserve">
+    <value>209</value>
+  </data>
+  <data name="CustomerInformationRequiredInCancellation" xml:space="preserve">
+    <value>210</value>
+  </data>
+  <data name="MissingConfirmationNumber" xml:space="preserve">
+    <value>211</value>
+  </data>
+  <data name="InvalidBoardBasisType" xml:space="preserve">
+    <value>212</value>
+  </data>
+  <data name="InvalidGeoRegion" xml:space="preserve">
+    <value>213</value>
+  </data>
+  <data name="InvalidPagingRequest" xml:space="preserve">
+    <value>214</value>
+  </data>
+  <data name="InvalidRoomCount" xml:space="preserve">
+    <value>216</value>
+  </data>
+  <data name="MissingIsPrepaid" xml:space="preserve">
+    <value>217</value>
+  </data>
+  <data name="MissingDepositRequired" xml:space="preserve">
+    <value>218</value>
+  </data>
+  <data name="MissingGuaranteeRequired" xml:space="preserve">
+    <value>219</value>
+  </data>
+  <data name="MissingPackageSaving" xml:space="preserve">
+    <value>220</value>
+  </data>
+  <data name="MissingAvailableRoomCount" xml:space="preserve">
+    <value>221</value>
+  </data>
+  <data name="MissingMaxOccupancy" xml:space="preserve">
+    <value>222</value>
+  </data>
+  <data name="MissingMoreResults" xml:space="preserve">
+    <value>223</value>
+  </data>
+  <data name="InvalidAdultAge" xml:space="preserve">
+    <value>224</value>
+  </data>
+  <data name="InvalidSeniorAge" xml:space="preserve">
+    <value>225</value>
+  </data>
+  <data name="InvalidInfantAge" xml:space="preserve">
+    <value>227</value>
+  </data>
+  <data name="OnlyInfantInRequest" xml:space="preserve">
+    <value>228</value>
+  </data>
+  <data name="OnlyChildrenInRequest" xml:space="preserve">
+    <value>229</value>
+  </data>
+  <data name="InvalidRectangularBounds" xml:space="preserve">
+    <value>231</value>
+  </data>
+  <data name="InvalidSearchDate" xml:space="preserve">
+    <value>232</value>
+  </data>
+  <data name="InvalidValueInRequest" xml:space="preserve">
+    <value>233</value>
+  </data>
+  <data name="RatesWithInvalidRoomOccupanciesProvided" xml:space="preserve">
+    <value>234</value>
+  </data>
+  <data name="SameSuppliersRequiredForRateCombination" xml:space="preserve">
+    <value>235</value>
+  </data>
+  <data name="OnlyPerRoomRatesRequiredForRateCombination" xml:space="preserve">
+    <value>236</value>
+  </data>
+  <data name="InvalidHotelId" xml:space="preserve">
+    <value>249</value>
+  </data>
+  <data name="InvalidSupplierId" xml:space="preserve">
+    <value>250</value>
+  </data>
+  <data name="MissingTenantId" xml:space="preserve">
+    <value>251</value>
+  </data>
+  <data name="NoResultsOrAllResultsFilteredOut" xml:space="preserve">
+    <value>252</value>
+  </data>
+  <data name="RequestedCultureNotMatchingWithInitCulture" xml:space="preserve">
+    <value>262</value>
+  </data>
+  <data name="HotelNotFoundForGivenCulture" xml:space="preserve">
+    <value>263</value>
+  </data>
+  <data name="MissingHotelChainFilter" xml:space="preserve">
+    <value>269</value>
+  </data>
+  <data name="MissingCustomerInformationInBooking" xml:space="preserve">
+    <value>272</value>
+  </data>
+  <data name="MissingTitleInName" xml:space="preserve">
+    <value>273</value>
+  </data>
+  <data name="MissingLocationCode" xml:space="preserve">
+    <value>274</value>
+  </data>
+  <data name="MissingLocationName" xml:space="preserve">
+    <value>275</value>
+  </data>
+  <data name="MissingStateInformation" xml:space="preserve">
+    <value>276</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>277</value>
+  </data>
+  <data name="MissingRoomId" xml:space="preserve">
+    <value>278</value>
+  </data>
+  <data name="MissingNationality" xml:space="preserve">
+    <value>279</value>
+  </data>
+  <data name="MissingDateOfBirth" xml:space="preserve">
+    <value>280</value>
+  </data>
+  <data name="MissingFormOfPayment" xml:space="preserve">
+    <value>281</value>
+  </data>
+  <data name="MissingAmount" xml:space="preserve">
+    <value>282</value>
+  </data>
+  <data name="MissingCurrency" xml:space="preserve">
+    <value>283</value>
+  </data>
+  <data name="MissingPrimaryGuestInformation" xml:space="preserve">
+    <value>284</value>
+  </data>
+  <data name="MissingBookingId" xml:space="preserve">
+    <value>285</value>
+  </data>
+  <data name="MissingPenalty" xml:space="preserve">
+    <value>286</value>
+  </data>
+  <data name="NegativePenaltyAmount" xml:space="preserve">
+    <value>287</value>
+  </data>
+  <data name="PenaltyAmountGreaterThanTotalFare" xml:space="preserve">
+    <value>288</value>
+  </data>
+  <data name="InvalidAmountInBookingRequest" xml:space="preserve">
+    <value>289</value>
+  </data>
+  <data name="UnconfirmedBookingCancellationNotAllowed" xml:space="preserve">
+    <value>290</value>
+  </data>
+  <data name="BookingAlreadyRefunded" xml:space="preserve">
+    <value>291</value>
+  </data>
+  <data name="InvalidCurrencyInBookingRequest" xml:space="preserve">
+    <value>292</value>
+  </data>
+  <data name="InvalidRecommendationId" xml:space="preserve">
+    <value>299</value>
+  </data>
+  <data name="InvalidBookingId" xml:space="preserve">
+    <value>300</value>
+  </data>
+  <data name="CannotRefundPostpaidInventory" xml:space="preserve">
+    <value>303</value>
+  </data>
+  <data name="CannotRefundUnChargedCard" xml:space="preserve">
+    <value>304</value>
+  </data>
+  <data name="CardOwnerPhoneNumbersMissing" xml:space="preserve">
+    <value>305</value>
+  </data>
+  <data name="CardOwnerPhoneNumberInvalid" xml:space="preserve">
+    <value>306</value>
+  </data>
+  <data name="InvalidCancellationDetails" xml:space="preserve">
+    <value>307</value>
+  </data>
+  <data name="CancellationNotAmmended" xml:space="preserve">
+    <value>308</value>
+  </data>
+  <data name="MissingTenantConfigurations" xml:space="preserve">
+    <value>309</value>
+  </data>
+  <data name="ConnectorIdentifierMissingInMetadataRequest" xml:space="preserve">
+    <value>310</value>
+  </data>
+  <data name="InvalidProductNameInMetadataRequest" xml:space="preserve">
+    <value>311</value>
+  </data>
+  <data name="WrongConnectorIdentifier" xml:space="preserve">
+    <value>312</value>
+  </data>
+  <data name="IncorrectConnectorIdentifierInMetadataResponse" xml:space="preserve">
+    <value>313</value>
+  </data>
+  <data name="MissingRateId" xml:space="preserve">
+    <value>316</value>
+  </data>
+  <data name="MissingRateCode" xml:space="preserve">
+    <value>317</value>
+  </data>
+  <data name="InvalidPerRoomRateCount" xml:space="preserve">
+    <value>318</value>
+  </data>
+  <data name="InvalidRoomsInPerBooking" xml:space="preserve">
+    <value>319</value>
+  </data>
+  <data name="InvalidPerRoomRatesCombination" xml:space="preserve">
+    <value>320</value>
+  </data>
+  <data name="RoomCountMismatchInBooking" xml:space="preserve">
+    <value>322</value>
+  </data>
+  <data name="InvalidStayDuration" xml:space="preserve">
+    <value>326</value>
+  </data>
+  <data name="MissingCriteria" xml:space="preserve">
+    <value>327</value>
+  </data>
+  <data name="MissingPerBookingAndPerRoomRate" xml:space="preserve">
+    <value>328</value>
+  </data>
+  <data name="MissingBillingAddressCityName" xml:space="preserve">
+    <value>329</value>
+  </data>
+  <data name="MissingBillingAddressStateCode" xml:space="preserve">
+    <value>330</value>
+  </data>
+  <data name="MissingSuppConfNumAndRoomCancelDetails" xml:space="preserve">
+    <value>331</value>
+  </data>
+  <data name="InvalidBookingContactAge" xml:space="preserve">
+    <value>333</value>
+  </data>
+  <data name="PolygonCoordinatesMissing" xml:space="preserve">
+    <value>334</value>
+  </data>
+  <data name="InvalidPolygon" xml:space="preserve">
+    <value>335</value>
+  </data>
+  <data name="IncompletePolygon" xml:space="preserve">
+    <value>336</value>
+  </data>
+  <data name="MissingHotelIds" xml:space="preserve">
+    <value>338</value>
+  </data>
+  <data name="InvalidGuestDistributionForRoom" xml:space="preserve">
+    <value>365</value>
+  </data>
+  <data name="InvalidRoomIdInBookingRequest" xml:space="preserve">
+    <value>437</value>
+  </data>
+  <data name="InvalidCancelAction" xml:space="preserve">
+    <value>438</value>
+  </data>
+  <data name="MissingAddressPostalCode" xml:space="preserve">
+    <value>439</value>
+  </data>
+  <data name="InvalidCashFormOfPayment" xml:space="preserve">
+    <value>440</value>
+  </data>
+  <data name="InvalidSearchPattern" xml:space="preserve">
+    <value>442</value>
+  </data>
+  <data name="NoAgencyConfiguredForTenant" xml:space="preserve">
+    <value>444</value>
+  </data>
+  <data name="UnSupportedRoomRates" xml:space="preserve">
+    <value>446</value>
+  </data>
+  <data name="MissingSearchPatternDetails" xml:space="preserve">
+    <value>447</value>
+  </data>
+  <data name="UnSupportedRateCodes" xml:space="preserve">
+    <value>448</value>
+  </data>
+  <data name="InvalidCreditCardNumber" xml:space="preserve">
+    <value>451</value>
+  </data>
+  <data name="InvalidCreditCardNumberLength" xml:space="preserve">
+    <value>452</value>
+  </data>
+  <data name="InvalidCreditCardCvv" xml:space="preserve">
+    <value>453</value>
+  </data>
+  <data name="MissingRoomsInformation" xml:space="preserve">
+    <value>454</value>
+  </data>
+  <data name="MissingBookingContactPhoneNumber" xml:space="preserve">
+    <value>455</value>
+  </data>
+  <data name="MissingBookingContactPhoneDetails" xml:space="preserve">
+    <value>456</value>
+  </data>
+  <data name="CardOwnersPhoneDetailsMissing" xml:space="preserve">
+    <value>457</value>
+  </data>
+  <data name="MissingPaymentBreakup" xml:space="preserve">
+    <value>458</value>
+  </data>
+  <data name="MissingPhoneDetails" xml:space="preserve">
+    <value>459</value>
+  </data>
+  <data name="InvalidTitleInName" xml:space="preserve">
+    <value>460</value>
+  </data>
+  <data name="InvalidPhoneType" xml:space="preserve">
+    <value>461</value>
+  </data>
+  <data name="MissingPhoneType" xml:space="preserve">
+    <value>462</value>
+  </data>
+  <data name="InvalidOccupantType" xml:space="preserve">
+    <value>463</value>
+  </data>
+  <data name="SearchStateRequired" xml:space="preserve">
+    <value>464</value>
+  </data>
+  <data name="DuplicateReservation" xml:space="preserve">
+    <value>465</value>
+  </data>
+  <data name="InvalidPrimaryGuest" xml:space="preserve">
+    <value>466</value>
+  </data>
+  <data name="ManyGeoLocationProvided" xml:space="preserve">
+    <value>468</value>
+  </data>
+  <data name="MissingPosId" xml:space="preserve">
+    <value>469</value>
+  </data>
+  <data name="InvalidGuestCountForPerBooking" xml:space="preserve">
+    <value>470</value>
+  </data>
+  <data name="MissingDate" xml:space="preserve">
+    <value>471</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>472</value>
+  </data>
+  <data name="MissingGuestName" xml:space="preserve">
+    <value>475</value>
+  </data>
+  <data name="MissingGuestFirstName" xml:space="preserve">
+    <value>476</value>
+  </data>
+  <data name="BookingReferenceAlreadyProcessed" xml:space="preserve">
+    <value>478</value>
+  </data>
+  <data name="InvalidHotelIdFormatGTA" xml:space="preserve">
+    <value>479</value>
+  </data>
+  <data name="MissingCreditCardIssuedBy" xml:space="preserve">
+    <value>481</value>
+  </data>
+  <data name="NonCancellableBooking" xml:space="preserve">
+    <value>482</value>
+  </data>
+  <data name="IpAddressMissingOrInvalid" xml:space="preserve">
+    <value>483</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="UnMappedSupplier" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="SupplierServerDown" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="SupplierSystem" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="ConnectorCallFaulted" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="InvalidConfigurations" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="InvalidContextData" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="RequestProcessingError" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="ResultsStore" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="SessionStore" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="ResultStoreRead" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="ResultStoreWrite" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="SessionStoreRead" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="SessionStoreWrite" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="StateSynchronizer" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="StateSynchronizerRead" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="StateSynchronizerWrite" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="CouldNotResolveType" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="Metadata" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="ParsingFailure" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="ParsingFailedForRooms" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="ServiceCommunication" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="ConnectorServiceCommunication" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="SupplierCommunication" xml:space="preserve">
+    <value>105</value>
+  </data>
+  <data name="InvalidConnectorResponse" xml:space="preserve">
+    <value>126</value>
+  </data>
+  <data name="InvalidSupplierResponse" xml:space="preserve">
+    <value>186</value>
+  </data>
+  <data name="TenantConfigurationRead" xml:space="preserve">
+    <value>195</value>
+  </data>
+  <data name="ContentServiceFaulted" xml:space="preserve">
+    <value>197</value>
+  </data>
+  <data name="ContentService" xml:space="preserve">
+    <value>198</value>
+  </data>
+  <data name="PricesChanged" xml:space="preserve">
+    <value>202</value>
+  </data>
+  <data name="CreditCardFraudDetected" xml:space="preserve">
+    <value>203</value>
+  </data>
+  <data name="InvalidPagingResponse" xml:space="preserve">
+    <value>215</value>
+  </data>
+  <data name="RoomBookingDetailNotObtained" xml:space="preserve">
+    <value>301</value>
+  </data>
+  <data name="RoomCancellationDetailNotObtained" xml:space="preserve">
+    <value>302</value>
+  </data>
+  <data name="TranslationMissing" xml:space="preserve">
+    <value>314</value>
+  </data>
+  <data name="CancelFailed" xml:space="preserve">
+    <value>315</value>
+  </data>
+  <data name="ProcessingException" xml:space="preserve">
+    <value>321</value>
+  </data>
+  <data name="ParsingFailureForHotels" xml:space="preserve">
+    <value>323</value>
+  </data>
+  <data name="SupplierException" xml:space="preserve">
+    <value>324</value>
+  </data>
+  <data name="InvalidMultiRoomsSearch" xml:space="preserve">
+    <value>325</value>
+  </data>
+  <data name="ConsumerServiceCommunication" xml:space="preserve">
+    <value>337</value>
+  </data>
+  <data name="UnexpectedSystemException" xml:space="preserve">
+    <value>362</value>
+  </data>
+  <data name="ConnectorReadFailure" xml:space="preserve">
+    <value>363</value>
+  </data>
+  <data name="ConnectorConfigurationSpecNotFound" xml:space="preserve">
+    <value>366</value>
+  </data>
+  <data name="SessionDataNotFound" xml:space="preserve">
+    <value>430</value>
+  </data>
+  <data name="DataServiceCommunication" xml:space="preserve">
+    <value>443</value>
+  </data>
+  <data name="MissingGuestLastName" xml:space="preserve">
+    <value>477</value>
+  </data>
+  <data name="SupplierFamilyMappingRead" xml:space="preserve">
+    <value>480</value>
+  </data>
+  <data name="NoResultsForSearchCriteria" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="RoomsNotFound" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="InvalidHotelIdsSkipped" xml:space="preserve">
+    <value>89</value>
+  </data>
+  <data name="ResultsNotFoundOrFiltered" xml:space="preserve">
+    <value>196</value>
+  </data>
+  <data name="ExceededMaxRateCodes" xml:space="preserve">
+    <value>450</value>
+  </data>
+  <data name="RadiusExceedsPermittedLimit" xml:space="preserve">
+    <value>467</value>
+  </data>
+  <data name="SupplierDisabled" xml:space="preserve">
+    <value>484</value>
+  </data>
+  <data name="MultipleSearchPattern" xml:space="preserve">
+    <value>95</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>577</value>
+  </data>
+  <data name="InvalidRetrieveBookingRequest" xml:space="preserve">
+    <value>690</value>
+  </data>
+  <data name="InvalidRetrieveDateInterval" xml:space="preserve">
+    <value>689</value>
+  </data>
+  <data name="NoBookingsToRetrieve" xml:space="preserve">
+    <value>691</value>
+  </data>
+  <data name="NumOfRequestExceeded" xml:space="preserve">
+    <value>525</value>
+  </data>
+</root>

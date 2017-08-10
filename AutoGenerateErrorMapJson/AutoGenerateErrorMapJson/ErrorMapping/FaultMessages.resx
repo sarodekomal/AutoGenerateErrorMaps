@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InvalidSessionId" xml:space="preserve">
+    <value>Invalid sessionId provided in the request. </value>
+  </data>
+  <data name="InvalidAccountId" xml:space="preserve">
+    <value>Invalid tenantId provided in the header.</value>
+  </data>
+  <data name="InvalidCurrency" xml:space="preserve">
+    <value>Invalid currency provided in the request.</value>
+  </data>
+  <data name="InvalidPosId" xml:space="preserve">
+    <value>Invalid posId provided in the request. </value>
+  </data>
+  <data name="InvalidRequest" xml:space="preserve">
+    <value>Invalid request. Verify the request format and then try again.</value>
+  </data>
+  <data name="RequestNotFound" xml:space="preserve">
+    <value>No request found. You must provide a valid request.</value>
+  </data>
+  <data name="MissingSessionId" xml:space="preserve">
+    <value>The sessionId field is required in the request.</value>
+  </data>
+  <data name="SessionIdNotGuid" xml:space="preserve">
+    <value>SessionId must be in Guid format</value>
+  </data>
+  <data name="InvalidPageInformation" xml:space="preserve">
+    <value>pageNo' and 'pageSize' should either be both present or none</value>
+  </data>
+  <data name="InvalidOrderByFormat" xml:space="preserve">
+    <value>Invalid orderBy value provided in the request.</value>
+  </data>
+  <data name="RequestDetailsMissing" xml:space="preserve">
+    <value>Request details are missing</value>
+  </data>
+  <data name="MissingSearchCriteriaDetails" xml:space="preserve">
+    <value>Invalid request. Verify the request format and then try again.</value>
+  </data>
+  <data name="MissingSupplierDetails" xml:space="preserve">
+    <value>The supplier details are required in the request. </value>
+  </data>
+  <data name="MissingSupplierId" xml:space="preserve">
+    <value>The supplierId field is required in the request.</value>
+  </data>
+  <data name="MissingSupplierName" xml:space="preserve">
+    <value>The supplierName field is required in the request.</value>
+  </data>
+  <data name="MissingSupplierConfigurations" xml:space="preserve">
+    <value>Unable to find the supplier configuration. </value>
+  </data>
+  <data name="MissingSupplierConfiguration" xml:space="preserve">
+    <value>The following supplier configuration details are required in the request: {0}.</value>
+  </data>
+  <data name="InvalidCheckInDate" xml:space="preserve">
+    <value>The check-in date can only be up to a day prior to the current date. </value>
+  </data>
+  <data name="InvalidCheckOutDate" xml:space="preserve">
+    <value>The check-out date must be later than the check-in date. </value>
+  </data>
+  <data name="CheckOutPriorToCheckInDate" xml:space="preserve">
+    <value>The check-out date cannot be earlier than the check-in date.</value>
+  </data>
+  <data name="InvalidCriteria" xml:space="preserve">
+    <value>Multiple hotel search criteria provided in the request. You can search for hotels by providing either the hotelId or the region.</value>
+  </data>
+  <data name="MissingOccupancyDetails" xml:space="preserve">
+    <value>The occupancy details are required in the request.</value>
+  </data>
+  <data name="CheckOutExceedsPermittedLimit" xml:space="preserve">
+    <value>You can check for availability only up to {0} days in advance.</value>
+  </data>
+  <data name="SingleCallRoomLimit" xml:space="preserve">
+    <value>The request has exceeded the maximum number of rooms that can be booked in a single request. You can book up to {0} rooms in a single request. </value>
+  </data>
+  <data name="PerRoomGuestLimit" xml:space="preserve">
+    <value>The request has exceeded the maximum number of guests that can occupy a single room. A single room can have up to {0} guests.</value>
+  </data>
+  <data name="AdultCountZero" xml:space="preserve">
+    <value>There must be at least one adult guest type per room. </value>
+  </data>
+  <data name="StayDurationLimit" xml:space="preserve">
+    <value>The stay duration cannot be more than {0} nights.</value>
+  </data>
+  <data name="ContentNotFoundForSupplier" xml:space="preserve">
+    <value>Content not found from the following suppliers: {0}.</value>
+  </data>
+  <data name="ConnectorMetadataNotFound" xml:space="preserve">
+    <value>Connector metadata not found for the following suppliers: {0}.</value>
+  </data>
+  <data name="InvalidVersion" xml:space="preserve">
+    <value>Invalid version provided in the supplier request.</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Invalid credentials provided in the supplier request.</value>
+  </data>
+  <data name="InvalidAdultCount" xml:space="preserve">
+    <value>Invalid Number of Adults</value>
+  </data>
+  <data name="InvalidChildAges" xml:space="preserve">
+    <value>The child age must be between {0} and {1}.</value>
+  </data>
+  <data name="InvalidChildCount" xml:space="preserve">
+    <value>Invalid Number of Children</value>
+  </data>
+  <data name="InvalidBounds" xml:space="preserve">
+    <value>Either the circular, the rectangular, or the polygonal region search criteria is required in the request.</value>
+  </data>
+  <data name="InvalidCircularRegion" xml:space="preserve">
+    <value>The latitude and the longitude of the center are required in the request. </value>
+  </data>
+  <data name="InvalidRectangularRegion" xml:space="preserve">
+    <value>For a rectangular region search criteria, both the bottom-right and the top-left geocodes are required in the request. </value>
+  </data>
+  <data name="InvalidHeaders" xml:space="preserve">
+    <value>The following message headers are required: {0}.</value>
+  </data>
+  <data name="ValidationFailure" xml:space="preserve">
+    <value>The following validation errors occurred: </value>
+  </data>
+  <data name="MissingRoomOccupant" xml:space="preserve">
+    <value>Each room must have at least one occupant.</value>
+  </data>
+  <data name="MissingStayPeriod" xml:space="preserve">
+    <value>The stay period is required in the request. </value>
+  </data>
+  <data name="InvalidGeocodes" xml:space="preserve">
+    <value>Invalid latitude or longitude values. The latitude value must be between -90 to +90 and the longitude value must be between -180 and +180.</value>
+  </data>
+  <data name="MissingOccupantType" xml:space="preserve">
+    <value>The guest type is required in the request.</value>
+  </data>
+  <data name="MissingRoomRate" xml:space="preserve">
+    <value>The rateId field is required in the request.</value>
+  </data>
+  <data name="InvalidRoomRatesInRequest" xml:space="preserve">
+    <value>You cannot have both the perbookingRates and the perRoomRates fields in one request.</value>
+  </data>
+  <data name="MissingRateReferenceId" xml:space="preserve">
+    <value>The rateRefId field is required in the request. </value>
+  </data>
+  <data name="MissingRoomOccupancyDetailsInRate" xml:space="preserve">
+    <value>The roomOccupancyDetails field is required in the request. </value>
+  </data>
+  <data name="InvalidRoomOccupancy" xml:space="preserve">
+    <value>At least one adult must be present in each room.</value>
+  </data>
+  <data name="InvalidMinRating" xml:space="preserve">
+    <value>The minHotelRating value must be between 1 and 5. </value>
+  </data>
+  <data name="InvalidMaxRating" xml:space="preserve">
+    <value>The maxHotelRating value must be between 1 and 5.</value>
+  </data>
+  <data name="MinHotelRatingGreaterThanMax" xml:space="preserve">
+    <value>The minHotelRating value must be lower than the maxHotelRating value. </value>
+  </data>
+  <data name="InvalidMinHotelPriceFilter" xml:space="preserve">
+    <value>The minHotelPrice must be a positive, nonzero value.</value>
+  </data>
+  <data name="InvalidMaxHotelPriceFilter" xml:space="preserve">
+    <value>The maxHotelPrice must be a positive, nonzero value.</value>
+  </data>
+  <data name="MinHotelPriceGreaterThanMax" xml:space="preserve">
+    <value>The minHotelPrice value must be lower than the maxHotelPrice value. </value>
+  </data>
+  <data name="MissingPerBookingRate" xml:space="preserve">
+    <value>The perBookingRates field is required in the request. </value>
+  </data>
+  <data name="SelectedRoomNotAvailable" xml:space="preserve">
+    <value>The selected rooms are no longer available.</value>
+  </data>
+  <data name="InvalidChildAgeRange" xml:space="preserve">
+    <value>Invalid child ages, it should be between {0} and {1}.</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>No data found for the requested input.</value>
+  </data>
+  <data name="InvalidCountryCode" xml:space="preserve">
+    <value>Invalid country code provided in the request.</value>
+  </data>
+  <data name="InvalidDuration" xml:space="preserve">
+    <value>The stay duration must be between {0} and {1} nights.</value>
+  </data>
+  <data name="InvalidContentPreferences" xml:space="preserve">
+    <value>Invalid content preferences provided in the request.</value>
+  </data>
+  <data name="InvalidRadius" xml:space="preserve">
+    <value>The radius must be between 1 and 100.</value>
+  </data>
+  <data name="InvalidRateIdFormat" xml:space="preserve">
+    <value>Invalid rateId provided in the request.</value>
+  </data>
+  <data name="InvalidRateId" xml:space="preserve">
+    <value>The request contains an invalid rateId.</value>
+  </data>
+  <data name="InvalidRateForRequestedHotelId" xml:space="preserve">
+    <value>Invalid combination of rateId and hotelId provided in the request. The hotelId must be {0}.</value>
+  </data>
+  <data name="InvalidRateForRequestedSupplierId" xml:space="preserve">
+    <value>Invalid combination of rateId and supplierId provided in the request. The supplierId must be {0}.</value>
+  </data>
+  <data name="RateIdsForMultiplePerBooking" xml:space="preserve">
+    <value>You cannot send multiple perBookingRateIds in the request.</value>
+  </data>
+  <data name="RateIdsForPerBookingAndPerRoom" xml:space="preserve">
+    <value>Rate Ids corresponding to both PerBooking and PerRoom rates should not be sent in Rate Rules request.</value>
+  </data>
+  <data name="MissingRateIds" xml:space="preserve">
+    <value>The rateIds are required in the request. </value>
+  </data>
+  <data name="HotelNotFound" xml:space="preserve">
+    <value>Hotel content not found for the following clarifiIds: {0}.</value>
+  </data>
+  <data name="InvalidSupplierIdInSupplierSpecificOptions" xml:space="preserve">
+    <value>Invalid supplierId, {0}, provided in SupplierSpecificOptions.</value>
+  </data>
+  <data name="InvalidCulture" xml:space="preserve">
+    <value>Invalid culture provided in the header.</value>
+  </data>
+  <data name="InvalidLocationId" xml:space="preserve">
+    <value>Invalid locationId provided in the request.</value>
+  </data>
+  <data name="DuplicateRateId" xml:space="preserve">
+    <value>RateIds must be unique.</value>
+  </data>
+  <data name="InvalidRateIdsCombination" xml:space="preserve">
+    <value>Invalid combination of rateIds.</value>
+  </data>
+  <data name="MissingLocationDetails" xml:space="preserve">
+    <value>Location details are not provided, please provide valid location details with either locationId or bounds</value>
+  </data>
+  <data name="SupplierConfigurationNotAvailable" xml:space="preserve">
+    <value>The supplier configuration is not available for the following supplierIds: {0}.</value>
+  </data>
+  <data name="MissingConnectorMetadata" xml:space="preserve">
+    <value>Invalid connector metadata. The following details are missing: {0}.</value>
+  </data>
+  <data name="InvalidOccupancyForRoom" xml:space="preserve">
+    <value>Per the supplier restriction, you must have the same occupancy for all the rooms in a multi-room booking.</value>
+  </data>
+  <data name="InvalidGuestCountForPerRoom" xml:space="preserve">
+    <value>You cannot book more than {0} guests per room.</value>
+  </data>
+  <data name="SameDayBookingNotAllowed" xml:space="preserve">
+    <value>Same-day hotel booking is not supported. </value>
+  </data>
+  <data name="UnSupportedCulture" xml:space="preserve">
+    <value>The supplier does not support the {0} culture.</value>
+  </data>
+  <data name="UnSupportedRateTypes" xml:space="preserve">
+    <value>The supplier does not support the following rate types: {0}.</value>
+  </data>
+  <data name="MissingGuestDistribution" xml:space="preserve">
+    <value>The guest information is required for each room in the request.</value>
+  </data>
+  <data name="MissingBookingContactInformation" xml:space="preserve">
+    <value>The booking contact information is required in the request.</value>
+  </data>
+  <data name="InvalidCreditCardType" xml:space="preserve">
+    <value>Credit card type parsing failed.</value>
+  </data>
+  <data name="InvalidCreditCardIssuedBy" xml:space="preserve">
+    <value>Credit card Issuer not Supported.</value>
+  </data>
+  <data name="CreditCardNotRequired" xml:space="preserve">
+    <value>The supplier does not require a credit card payment for this booking.</value>
+  </data>
+  <data name="CreditCardRequired" xml:space="preserve">
+    <value>The credit card details are required in the request.</value>
+  </data>
+  <data name="UnSupportedSpecialRequest" xml:space="preserve">
+    <value>The supplier does not support special requests. </value>
+  </data>
+  <data name="UnSupportedRecordLocator" xml:space="preserve">
+    <value>Record Locator in booking request not supported by supplier</value>
+  </data>
+  <data name="UnSupportedLoyaltyMembership" xml:space="preserve">
+    <value>The supplier does not support loyalty memberships.</value>
+  </data>
+  <data name="FirstNameLengthExceeded" xml:space="preserve">
+    <value>The firstName value must be less than {0} characters.</value>
+  </data>
+  <data name="LastNameLengthExceeded" xml:space="preserve">
+    <value>The lastName value must be less than {0} characters.</value>
+  </data>
+  <data name="InvalidFirstName" xml:space="preserve">
+    <value>The firstName value cannot contain special characters. </value>
+  </data>
+  <data name="InvalidLastName" xml:space="preserve">
+    <value>The lastName value cannot contain special characters. </value>
+  </data>
+  <data name="InvalidPassengerInformation" xml:space="preserve">
+    <value>Invalid passenger information provided in booking contact. </value>
+  </data>
+  <data name="MissingBookingContactNameInformation" xml:space="preserve">
+    <value>Booking contact person name information is missing in {0} Field.</value>
+  </data>
+  <data name="MissingContactFirstName" xml:space="preserve">
+    <value>The customer firstName field is required in the request. </value>
+  </data>
+  <data name="MissingContactLastName" xml:space="preserve">
+    <value>The customer lastName field is required in the request. </value>
+  </data>
+  <data name="InvalidContactInformation" xml:space="preserve">
+    <value>Invalid customer contact information provided in the request. </value>
+  </data>
+  <data name="InvalidPhoneInformation" xml:space="preserve">
+    <value>Invalid phone information provided for the {0} in the booking request.</value>
+  </data>
+  <data name="InvalidAddressInformation" xml:space="preserve">
+    <value>Invalid address provided for the customer. </value>
+  </data>
+  <data name="MissingAddressLine" xml:space="preserve">
+    <value>The customer address line1 field is required in the request. </value>
+  </data>
+  <data name="MissingCityInformation" xml:space="preserve">
+    <value>The customer city name or code fields are required in the request.</value>
+  </data>
+  <data name="MissingCountryCode" xml:space="preserve">
+    <value>The customer countryCode field is required in the request.</value>
+  </data>
+  <data name="MissingEmailInformation" xml:space="preserve">
+    <value>The customer email field is required in the request.</value>
+  </data>
+  <data name="InvalidMembershipInformation" xml:space="preserve">
+    <value>Invalid loyalty membership information provided in the request.</value>
+  </data>
+  <data name="MissingPerRoomDetails" xml:space="preserve">
+    <value>The perRoomRates field is required in the request. </value>
+  </data>
+  <data name="MissingRoomCode" xml:space="preserve">
+    <value>The roomCode field is required in the request. </value>
+  </data>
+  <data name="MissingCreditCardNumber" xml:space="preserve">
+    <value>The credit card num field is required in the request.</value>
+  </data>
+  <data name="MissingNameOnCreditCard" xml:space="preserve">
+    <value>The nameOnCard field is required in the request. </value>
+  </data>
+  <data name="MissingCreditCardExpiryDate" xml:space="preserve">
+    <value>The credit card expiry month and year fields are required in the request.</value>
+  </data>
+  <data name="CreditCardExpired" xml:space="preserve">
+    <value>The credit card provided has already expired.</value>
+  </data>
+  <data name="MissingCreditCardCvv" xml:space="preserve">
+    <value>The credit card cvv field is required in the request.</value>
+  </data>
+  <data name="MissingCreditCardBillingAddress" xml:space="preserve">
+    <value>The credit card billing address field is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressLine1" xml:space="preserve">
+    <value>The credit card billing address line1 field is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressCity" xml:space="preserve">
+    <value>The credit card billing address city details are required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressCountryCode" xml:space="preserve">
+    <value>The credit card billing address countryCode field is required in the request.</value>
+  </data>
+  <data name="MissingBillingAddressPostalCode" xml:space="preserve">
+    <value>The credit card billing address postalCode field is required in the request.</value>
+  </data>
+  <data name="MissingRateInformation" xml:space="preserve">
+    <value>The room field is required in the request. </value>
+  </data>
+  <data name="MissingRoomPassengerDistribution" xml:space="preserve">
+    <value>Room passenger distribution missing for rate id {0}</value>
+  </data>
+  <data name="MissingGuestInformation" xml:space="preserve">
+    <value>Guest information missing for rate id {0}</value>
+  </data>
+  <data name="InvalidGuestInformation" xml:space="preserve">
+    <value>Each guest information for the rateId {0} is required in the request.</value>
+  </data>
+  <data name="MissingAdultGuest" xml:space="preserve">
+    <value>One of the guest should be adult</value>
+  </data>
+  <data name="MissingCreditCardCityDetails" xml:space="preserve">
+    <value>The credit card billing address city name and code is required in the request.</value>
+  </data>
+  <data name="MissingCreditCardStateDetails" xml:space="preserve">
+    <value>The credit card billing address state name and code fields are required in the request.</value>
+  </data>
+  <data name="InvalidCreditCardExpiryMonth" xml:space="preserve">
+    <value>Invalid credit card expiry month provided in the request.</value>
+  </data>
+  <data name="InvalidCreditCardExpiryYear" xml:space="preserve">
+    <value>Invalid credit card expiry year provided in the request.</value>
+  </data>
+  <data name="SupplierValidation" xml:space="preserve">
+    <value>The supplier returned validation errors. </value>
+  </data>
+  <data name="RoomUnavailable" xml:space="preserve">
+    <value>The room type or rate that you selected is no longer available.</value>
+  </data>
+  <data name="ItineraryAlreadyBooked" xml:space="preserve">
+    <value>This itinerary has already been booked.</value>
+  </data>
+  <data name="InvalidCreditCardDetails" xml:space="preserve">
+    <value>Invalid credit card details provided in the request. </value>
+  </data>
+  <data name="ItineraryNotBooked" xml:space="preserve">
+    <value>The booking failed because the room price has recently increased.</value>
+  </data>
+  <data name="ItineraryBookedWithLowerPrice" xml:space="preserve">
+    <value>This itinerary is booked with a lower price.</value>
+  </data>
+  <data name="MissingChildAge" xml:space="preserve">
+    <value>The age of a child guest type is required in the request. </value>
+  </data>
+  <data name="InvalidMultiRoomType" xml:space="preserve">
+    <value>Per the supplier restriction, you must have the same room type for all the rooms in a multi-room booking.</value>
+  </data>
+  <data name="CreditCardDeclined" xml:space="preserve">
+    <value>Credit card declined. Either the credit card number is invalid or the merchant has blocked the credit card.</value>
+  </data>
+  <data name="InvalidCreditCardSecurityValue" xml:space="preserve">
+    <value>Incorrect credit card security code provided. </value>
+  </data>
+  <data name="InvalidCreditCardSecureCode" xml:space="preserve">
+    <value>Incorrect credit card security code provided or the security code validation process failed.</value>
+  </data>
+  <data name="MissingDetailsInCancellation" xml:space="preserve">
+    <value>The following details are required in the cancellation request: {0}.</value>
+  </data>
+  <data name="BookingDoesNotExist" xml:space="preserve">
+    <value>You cannot cancel a booking that does not exist.</value>
+  </data>
+  <data name="BookingAlreadyCancelled" xml:space="preserve">
+    <value>You cannot cancel a booking that is already canceled.</value>
+  </data>
+  <data name="StateNotFound" xml:space="preserve">
+    <value>No previous state found for this request. You must initiate search once again. </value>
+  </data>
+  <data name="InvalidBookingConfirmation" xml:space="preserve">
+    <value>The supplierConfirmationNum field is required in the request.</value>
+  </data>
+  <data name="MissingCustomerName" xml:space="preserve">
+    <value>Customer name field is required in the request. </value>
+  </data>
+  <data name="InvalidCustomerFirstName" xml:space="preserve">
+    <value>Invalid customer firstName provided in the request.</value>
+  </data>
+  <data name="InvalidCustomerLastName" xml:space="preserve">
+    <value>Invalid customer lastName provided in the request.</value>
+  </data>
+  <data name="CancellationNotSupported" xml:space="preserve">
+    <value>The supplier, {0}, does not support cancellations.</value>
+  </data>
+  <data name="CustomerInformationRequiredInCancellation" xml:space="preserve">
+    <value>The supplier, {0}, requires the customer information in the cancellation request.</value>
+  </data>
+  <data name="MissingConfirmationNumber" xml:space="preserve">
+    <value>Supplier Confirmation Number Cannot be Null or empty.</value>
+  </data>
+  <data name="InvalidBoardBasisType" xml:space="preserve">
+    <value>Invalid boardBasis type provided in the request.</value>
+  </data>
+  <data name="InvalidGeoRegion" xml:space="preserve">
+    <value>Invalid georegion provided in the request. Unable to parse the bounds provided as a circle or a rectangle.</value>
+  </data>
+  <data name="InvalidPagingRequest" xml:space="preserve">
+    <value>Invalid pagination criteria provided in the request. </value>
+  </data>
+  <data name="InvalidRoomCount" xml:space="preserve">
+    <value>Invalid Room count in RoomAvailInfo request</value>
+  </data>
+  <data name="MissingIsPrepaid" xml:space="preserve">
+    <value>The isPrepaid field is required in the request.</value>
+  </data>
+  <data name="MissingDepositRequired" xml:space="preserve">
+    <value>The depositRequired field is required in the request.</value>
+  </data>
+  <data name="MissingGuaranteeRequired" xml:space="preserve">
+    <value>The guaranteeRequired field is required in the request.</value>
+  </data>
+  <data name="MissingPackageSaving" xml:space="preserve">
+    <value>The packageSaving field is required in the request.</value>
+  </data>
+  <data name="MissingAvailableRoomCount" xml:space="preserve">
+    <value>The availableRoomCount field is required in the request.</value>
+  </data>
+  <data name="MissingMaxOccupancy" xml:space="preserve">
+    <value>The maxOccupancy field is required in the request.</value>
+  </data>
+  <data name="MissingMoreResults" xml:space="preserve">
+    <value>The moreResults field is required in the request.</value>
+  </data>
+  <data name="InvalidAdultAge" xml:space="preserve">
+    <value>The adult age must be between {0} and {1}.</value>
+  </data>
+  <data name="InvalidSeniorAge" xml:space="preserve">
+    <value>Invalid Senior age. It should be between {0} and {1}</value>
+  </data>
+  <data name="InvalidInfantAge" xml:space="preserve">
+    <value>Invalid Infant age. It should be between {0} and {1}</value>
+  </data>
+  <data name="OnlyInfantInRequest" xml:space="preserve">
+    <value>Only Infant present in request. At least one adult should be present.</value>
+  </data>
+  <data name="OnlyChildrenInRequest" xml:space="preserve">
+    <value>Only Children present in request. At least one adult should be present</value>
+  </data>
+  <data name="InvalidRectangularBounds" xml:space="preserve">
+    <value>Invalid rectangular bounds. The Top-left and bottom-right coordinates cannot form a horizontal or a vertical line. Additionally, the diagonal distance between the top-left and the bottom-right geocodes must be less than {0} km.</value>
+  </data>
+  <data name="InvalidSearchDate" xml:space="preserve">
+    <value>The start date must not be later than {0} days from the current date.</value>
+  </data>
+  <data name="InvalidValueInRequest" xml:space="preserve">
+    <value>Invalid {0} provided in the request.</value>
+  </data>
+  <data name="RatesWithInvalidRoomOccupanciesProvided" xml:space="preserve">
+    <value>Unable to combine rates due to a mismatch in the room rate occupancies.</value>
+  </data>
+  <data name="SameSuppliersRequiredForRateCombination" xml:space="preserve">
+    <value>Unable to combine rates due to different suppliers.</value>
+  </data>
+  <data name="OnlyPerRoomRatesRequiredForRateCombination" xml:space="preserve">
+    <value>Only per room rates can be combined.</value>
+  </data>
+  <data name="InvalidHotelId" xml:space="preserve">
+    <value>The hotelId field is required in the request.</value>
+  </data>
+  <data name="InvalidSupplierId" xml:space="preserve">
+    <value>Invalid supplierId provided in the request.</value>
+  </data>
+  <data name="MissingTenantId" xml:space="preserve">
+    <value>The tenantId field is required in the request.</value>
+  </data>
+  <data name="NoResultsOrAllResultsFilteredOut" xml:space="preserve">
+    <value>There are no search results found or all the search results are filtered out.</value>
+  </data>
+  <data name="RequestedCultureNotMatchingWithInitCulture" xml:space="preserve">
+    <value>The requested culture does not match with the culture in the Initiate Search call.</value>
+  </data>
+  <data name="HotelNotFoundForGivenCulture" xml:space="preserve">
+    <value>No hotel found for the requested hotel id and culture.</value>
+  </data>
+  <data name="MissingHotelChainFilter" xml:space="preserve">
+    <value>The hotelChain field is required in the request.</value>
+  </data>
+  <data name="MissingCustomerInformationInBooking" xml:space="preserve">
+    <value>The customer field is required in the booking request.</value>
+  </data>
+  <data name="MissingTitleInName" xml:space="preserve">
+    <value>The title field is required in the name.</value>
+  </data>
+  <data name="MissingLocationCode" xml:space="preserve">
+    <value>The {0} code is required in the request. </value>
+  </data>
+  <data name="MissingLocationName" xml:space="preserve">
+    <value>The {0} name is required in the request. </value>
+  </data>
+  <data name="MissingStateInformation" xml:space="preserve">
+    <value>The state field for the address is required in the request.</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Invalid email address provided in the request.</value>
+  </data>
+  <data name="MissingRoomId" xml:space="preserve">
+    <value>The roomId field is required in the request.</value>
+  </data>
+  <data name="MissingNationality" xml:space="preserve">
+    <value>The nationality field is required in the request.</value>
+  </data>
+  <data name="MissingDateOfBirth" xml:space="preserve">
+    <value>The dob field is required in the request.</value>
+  </data>
+  <data name="MissingFormOfPayment" xml:space="preserve">
+    <value>The paymentMethod field is required in the request.</value>
+  </data>
+  <data name="MissingAmount" xml:space="preserve">
+    <value>Amount is missing in request.</value>
+  </data>
+  <data name="MissingCurrency" xml:space="preserve">
+    <value>The currency is missing in the request.</value>
+  </data>
+  <data name="MissingPrimaryGuestInformation" xml:space="preserve">
+    <value>The primaryGuest field is required in the request.</value>
+  </data>
+  <data name="MissingBookingId" xml:space="preserve">
+    <value>The bookingId field is required in the request.</value>
+  </data>
+  <data name="MissingPenalty" xml:space="preserve">
+    <value>The penalty field is missing in the request.</value>
+  </data>
+  <data name="NegativePenaltyAmount" xml:space="preserve">
+    <value>The penalty amount must be greater than or equal to 0. </value>
+  </data>
+  <data name="PenaltyAmountGreaterThanTotalFare" xml:space="preserve">
+    <value>The penalty amount must be lesser than the total fare.</value>
+  </data>
+  <data name="InvalidAmountInBookingRequest" xml:space="preserve">
+    <value>Invalid amount provided in the booking request. </value>
+  </data>
+  <data name="UnconfirmedBookingCancellationNotAllowed" xml:space="preserve">
+    <value>You cannot cancel an unconfirmed booking.</value>
+  </data>
+  <data name="BookingAlreadyRefunded" xml:space="preserve">
+    <value>You cannot request for a refund for a booking that was already refunded.</value>
+  </data>
+  <data name="InvalidCurrencyInBookingRequest" xml:space="preserve">
+    <value>The currency in the booking request must be the same as the currency requested in pricing.</value>
+  </data>
+  <data name="InvalidRecommendationId" xml:space="preserve">
+    <value>Invalid recommendationId provided in the request.</value>
+  </data>
+  <data name="InvalidBookingId" xml:space="preserve">
+    <value>Invalid bookingId provided in the request.</value>
+  </data>
+  <data name="CannotRefundPostpaidInventory" xml:space="preserve">
+    <value>Unable to process the refund for a postpaid form of payment. </value>
+  </data>
+  <data name="CannotRefundUnChargedCard" xml:space="preserve">
+    <value>Unable to process the refund because the card was not charged.</value>
+  </data>
+  <data name="CardOwnerPhoneNumbersMissing" xml:space="preserve">
+    <value>The card holder's  phone number is required in the request.</value>
+  </data>
+  <data name="CardOwnerPhoneNumberInvalid" xml:space="preserve">
+    <value>Invalid card holder phone number provided in the request.</value>
+  </data>
+  <data name="InvalidCancellationDetails" xml:space="preserve">
+    <value>The following invalid cancellation details were provided in the request: {0}.</value>
+  </data>
+  <data name="CancellationNotAmmended" xml:space="preserve">
+    <value>The cancellation cannot be amended.</value>
+  </data>
+  <data name="MissingTenantConfigurations" xml:space="preserve">
+    <value>The following tenant configuration details are required: {0}.</value>
+  </data>
+  <data name="ConnectorIdentifierMissingInMetadataRequest" xml:space="preserve">
+    <value>The connector identifier is required in the metadata request.</value>
+  </data>
+  <data name="InvalidProductNameInMetadataRequest" xml:space="preserve">
+    <value>Invalid product name provided in the metadata request.</value>
+  </data>
+  <data name="WrongConnectorIdentifier" xml:space="preserve">
+    <value>Invalid connector identifier, {0}, provided in the request.</value>
+  </data>
+  <data name="IncorrectConnectorIdentifierInMetadataResponse" xml:space="preserve">
+    <value>Metadata obtained for wrong connector identifier.</value>
+  </data>
+  <data name="MissingRateId" xml:space="preserve">
+    <value>The perBookingRate or perRoomRate ID is required in the booking request.</value>
+  </data>
+  <data name="MissingRateCode" xml:space="preserve">
+    <value>The rateCode field is required in the booking request.</value>
+  </data>
+  <data name="InvalidPerRoomRateCount" xml:space="preserve">
+    <value>The number of rateIds provided in the request is greater than the available room count.</value>
+  </data>
+  <data name="InvalidRoomsInPerBooking" xml:space="preserve">
+    <value>Rooms corresponding to multiple PerBooking rates should not be sent in Booking request.</value>
+  </data>
+  <data name="InvalidPerRoomRatesCombination" xml:space="preserve">
+    <value>The rateIds provided in the request are not combinable. </value>
+  </data>
+  <data name="RoomCountMismatchInBooking" xml:space="preserve">
+    <value>The room count provided in the booking request must match with the room count provided in the priced rates.</value>
+  </data>
+  <data name="InvalidStayDuration" xml:space="preserve">
+    <value>The stay duration must be at least 1 day.</value>
+  </data>
+  <data name="MissingCriteria" xml:space="preserve">
+    <value>Criteria is required in the request.</value>
+  </data>
+  <data name="MissingPerBookingAndPerRoomRate" xml:space="preserve">
+    <value>Either PerBooking Rate or PerRoom Rate should be present in the request.</value>
+  </data>
+  <data name="MissingBillingAddressCityName" xml:space="preserve">
+    <value>Credit Card Billing Address City Name is Missing.</value>
+  </data>
+  <data name="MissingBillingAddressStateCode" xml:space="preserve">
+    <value>Credit Card Billing Address State Code is Missing.</value>
+  </data>
+  <data name="MissingSuppConfNumAndRoomCancelDetails" xml:space="preserve">
+    <value>Both Supplier Confirmation Number and Room CancelationDetails cannot be Missing.</value>
+  </data>
+  <data name="InvalidBookingContactAge" xml:space="preserve">
+    <value>Booking contact person age is invalid in {0} Field.</value>
+  </data>
+  <data name="PolygonCoordinatesMissing" xml:space="preserve">
+    <value>Polygon coordinates missing</value>
+  </data>
+  <data name="InvalidPolygon" xml:space="preserve">
+    <value>Minimum 4 geo coordinates (3 vertices) should be provided for the polygon</value>
+  </data>
+  <data name="IncompletePolygon" xml:space="preserve">
+    <value>Geo coordinates should form a closed polygon</value>
+  </data>
+  <data name="MissingHotelIds" xml:space="preserve">
+    <value>Either Hotel Id list or location details required in the search request</value>
+  </data>
+  <data name="InvalidGuestDistributionForRoom" xml:space="preserve">
+    <value>The guest distribution cannot be accomodated in Room : {0}</value>
+  </data>
+  <data name="InvalidRoomIdInBookingRequest" xml:space="preserve">
+    <value>The request contains the following invalid room IDs: {0}.</value>
+  </data>
+  <data name="InvalidCancelAction" xml:space="preserve">
+    <value>Invalid/Missing cancel action in the request.</value>
+  </data>
+  <data name="MissingAddressPostalCode" xml:space="preserve">
+    <value>The address postalCode field is required in the request.</value>
+  </data>
+  <data name="InvalidCashFormOfPayment" xml:space="preserve">
+    <value>You cannot provide information for the payment field when the paymentType is set to cash. </value>
+  </data>
+  <data name="InvalidSearchPattern" xml:space="preserve">
+    <value>Following search pattern(s) are not supported: {0}.</value>
+  </data>
+  <data name="NoAgencyConfiguredForTenant" xml:space="preserve">
+    <value>No agency configured for the tenant ID {0}.</value>
+  </data>
+  <data name="UnSupportedRoomRates" xml:space="preserve">
+    <value>Missing {0} rates details in request, supplier doesn't supports {1} rates.</value>
+  </data>
+  <data name="MissingSearchPatternDetails" xml:space="preserve">
+    <value>Invalid search pattern details, either HotelIds, city or radial region should be present in criteria</value>
+  </data>
+  <data name="UnSupportedRateCodes" xml:space="preserve">
+    <value>The supplier does not support rate codes.</value>
+  </data>
+  <data name="InvalidCreditCardNumber" xml:space="preserve">
+    <value>The credit card num value provided is invalid.</value>
+  </data>
+  <data name="InvalidCreditCardNumberLength" xml:space="preserve">
+    <value>The length of credit card num provided is invalid. Length should be greater than or equal to {0}</value>
+  </data>
+  <data name="InvalidCreditCardCvv" xml:space="preserve">
+    <value>The credit card cvv value provided is invalid.</value>
+  </data>
+  <data name="MissingRoomsInformation" xml:space="preserve">
+    <value>The rooms information is required in the request.</value>
+  </data>
+  <data name="MissingBookingContactPhoneNumber" xml:space="preserve">
+    <value>Booking contact phone number is missing.</value>
+  </data>
+  <data name="MissingBookingContactPhoneDetails" xml:space="preserve">
+    <value>Booking contact phone details like number , extentions is missing.</value>
+  </data>
+  <data name="CardOwnersPhoneDetailsMissing" xml:space="preserve">
+    <value>Card Owners phone details like number , extentions is missing.</value>
+  </data>
+  <data name="MissingPaymentBreakup" xml:space="preserve">
+    <value>The payment breakup details are required in the booking request.</value>
+  </data>
+  <data name="MissingPhoneDetails" xml:space="preserve">
+    <value>The phone details of the {0} are required in the booking request.</value>
+  </data>
+  <data name="InvalidTitleInName" xml:space="preserve">
+    <value>The value of title field in the name is invalid.</value>
+  </data>
+  <data name="InvalidPhoneType" xml:space="preserve">
+    <value>The value of phone type field in the phone is invalid.</value>
+  </data>
+  <data name="MissingPhoneType" xml:space="preserve">
+    <value>The value of phone type field in the phone is missing.</value>
+  </data>
+  <data name="InvalidOccupantType" xml:space="preserve">
+    <value>Invalid value of guest type in the request.</value>
+  </data>
+  <data name="SearchStateRequired" xml:space="preserve">
+    <value>This supplier does not support stateless room rate. Search call is required.</value>
+  </data>
+  <data name="DuplicateReservation" xml:space="preserve">
+    <value>Duplicate Booking has been made </value>
+  </data>
+  <data name="InvalidPrimaryGuest" xml:space="preserve">
+    <value>Primary guest information should match with one of the guests information in the rooms.</value>
+  </data>
+  <data name="ManyGeoLocationProvided" xml:space="preserve">
+    <value>You can have only one geographic location search criteria in the request. You must provide either the circular or the rectangular region.</value>
+  </data>
+  <data name="MissingPosId" xml:space="preserve">
+    <value>posId is missing in the request.</value>
+  </data>
+  <data name="InvalidGuestCountForPerBooking" xml:space="preserve">
+    <value>You cannot book more than {0} guests.</value>
+  </data>
+  <data name="MissingDate" xml:space="preserve">
+    <value>The {0} is required in the request.</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>The format of the date provided in the {0} field is invalid.</value>
+  </data>
+  <data name="MissingGuestName" xml:space="preserve">
+    <value>Guest Name is Missing. Provide Names for All guests.</value>
+  </data>
+  <data name="MissingGuestFirstName" xml:space="preserve">
+    <value>Guest First Name is missing. Provide Names for All guests.</value>
+  </data>
+  <data name="BookingReferenceAlreadyProcessed" xml:space="preserve">
+    <value>Booking token passed in the booking request has been used already. It should be unique.</value>
+  </data>
+  <data name="InvalidHotelIdFormatGTA" xml:space="preserve">
+    <value>Invalid hotel ids in request</value>
+  </data>
+  <data name="MissingCreditCardIssuedBy" xml:space="preserve">
+    <value>Credit card Issuer Missing. Please add valid credit card issuer.</value>
+  </data>
+  <data name="NonCancellableBooking" xml:space="preserve">
+    <value>Cancellation not allowed for this booking</value>
+  </data>
+  <data name="IpAddressMissingOrInvalid" xml:space="preserve">
+    <value>The Ip Address is either missing or is in invalid format.</value>
+  </data>
+  <data name="System" xml:space="preserve">
+    <value>A system error occurred. Try again after some time.</value>
+  </data>
+  <data name="UnMappedSupplier" xml:space="preserve">
+    <value>The following supplier exception occurred: {0}. This exception does not map with any existing supplier error.</value>
+  </data>
+  <data name="SupplierServerDown" xml:space="preserve">
+    <value>The supplier server is unreachable. Try again after some time.</value>
+  </data>
+  <data name="SupplierSystem" xml:space="preserve">
+    <value>An error occurred at the supplier's side. Try again after some time.</value>
+  </data>
+  <data name="TimeOut" xml:space="preserve">
+    <value>A timeout exception occurred.</value>
+  </data>
+  <data name="Supplier" xml:space="preserve">
+    <value>A supplier exception occurred.</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>An application exception occurred.</value>
+  </data>
+  <data name="ConnectorCallFaulted" xml:space="preserve">
+    <value>The connector call returned error. </value>
+  </data>
+  <data name="InvalidConfigurations" xml:space="preserve">
+    <value>Required configurations are missing or invalid.</value>
+  </data>
+  <data name="InvalidContextData" xml:space="preserve">
+    <value>The context data is required in the request.</value>
+  </data>
+  <data name="RequestProcessingError" xml:space="preserve">
+    <value>An error occurred while processing the request.</value>
+  </data>
+  <data name="ResultsStore" xml:space="preserve">
+    <value>An error occurred while using the result store.</value>
+  </data>
+  <data name="SessionStore" xml:space="preserve">
+    <value>An error occurred while using the session store.</value>
+  </data>
+  <data name="ResultStoreRead" xml:space="preserve">
+    <value>An error occurred while reading data from the result store.</value>
+  </data>
+  <data name="ResultStoreWrite" xml:space="preserve">
+    <value>An error occurred while writing data to the result store.</value>
+  </data>
+  <data name="SessionStoreRead" xml:space="preserve">
+    <value>An error occurred while reading data from the session store.</value>
+  </data>
+  <data name="SessionStoreWrite" xml:space="preserve">
+    <value>An error occurred while writing data to the session store.</value>
+  </data>
+  <data name="StateSynchronizer" xml:space="preserve">
+    <value>An error occurred while using the state synchronizer.</value>
+  </data>
+  <data name="StateSynchronizerRead" xml:space="preserve">
+    <value>An error occurred while reading data from the state synchronizer.</value>
+  </data>
+  <data name="StateSynchronizerWrite" xml:space="preserve">
+    <value>An error occurred while writing data to the state synchronizer.</value>
+  </data>
+  <data name="CouldNotResolveType" xml:space="preserve">
+    <value>Unable to resolve the {0} type. {1}.</value>
+  </data>
+  <data name="Metadata" xml:space="preserve">
+    <value>An error occurred while using the metadata.</value>
+  </data>
+  <data name="ParsingFailure" xml:space="preserve">
+    <value>Unable to parse supplier response.</value>
+  </data>
+  <data name="ParsingFailedForRooms" xml:space="preserve">
+    <value>Parsing failed for the following rooms: {0}.</value>
+  </data>
+  <data name="ServiceCommunication" xml:space="preserve">
+    <value>An error occurred while communicating with the service.</value>
+  </data>
+  <data name="ConnectorServiceCommunication" xml:space="preserve">
+    <value>An error occurred while communicating with the connector service.</value>
+  </data>
+  <data name="SupplierCommunication" xml:space="preserve">
+    <value>Could not call any supplier, this might be either because of configuration issues or supplier request validation failures.</value>
+  </data>
+  <data name="InvalidConnectorResponse" xml:space="preserve">
+    <value>Invalid connector response.</value>
+  </data>
+  <data name="InvalidSupplierResponse" xml:space="preserve">
+    <value>Invalid supplier response. Booking failed.</value>
+  </data>
+  <data name="TenantConfigurationRead" xml:space="preserve">
+    <value>Unable to read the tenant configuration.</value>
+  </data>
+  <data name="ContentServiceFaulted" xml:space="preserve">
+    <value>Unable to call the content service due to a communication error.</value>
+  </data>
+  <data name="ContentService" xml:space="preserve">
+    <value>An error occurred while communicating with the content service.</value>
+  </data>
+  <data name="PricesChanged" xml:space="preserve">
+    <value>The booking failed because the room price has recently changed.</value>
+  </data>
+  <data name="CreditCardFraudDetected" xml:space="preserve">
+    <value>Credit card fraud detected.</value>
+  </data>
+  <data name="InvalidPagingResponse" xml:space="preserve">
+    <value>An error occurred while serializing the pagination criteria.</value>
+  </data>
+  <data name="RoomBookingDetailNotObtained" xml:space="preserve">
+    <value>Unable to obtain the room booking details from the supplier.</value>
+  </data>
+  <data name="RoomCancellationDetailNotObtained" xml:space="preserve">
+    <value>Unable to obtain the room cancellation details from the supplier. </value>
+  </data>
+  <data name="TranslationMissing" xml:space="preserve">
+    <value>Translation missing for type {0}.</value>
+  </data>
+  <data name="CancelFailed" xml:space="preserve">
+    <value>Unable to process the cancellation request. </value>
+  </data>
+  <data name="ProcessingException" xml:space="preserve">
+    <value>Unable to process request due to an unexpected exception.</value>
+  </data>
+  <data name="ParsingFailureForHotels" xml:space="preserve">
+    <value>Parsing failed for the following hotelIds: {0}.</value>
+  </data>
+  <data name="SupplierException" xml:space="preserve">
+    <value>Unable to process the request due to an unexpected supplier exception. </value>
+  </data>
+  <data name="InvalidMultiRoomsSearch" xml:space="preserve">
+    <value>You cannot search for more than {0} rooms in a single call.</value>
+  </data>
+  <data name="ConsumerServiceCommunication" xml:space="preserve">
+    <value>Error occurred while communicating with {0} consumer service.</value>
+  </data>
+  <data name="UnexpectedSystemException" xml:space="preserve">
+    <value>Internal server error occured. Please check the logs for more details</value>
+  </data>
+  <data name="ConnectorReadFailure" xml:space="preserve">
+    <value>Could not fetch the connector configuration for connector : {0}</value>
+  </data>
+  <data name="ConnectorConfigurationSpecNotFound" xml:space="preserve">
+    <value>Could not fetch the connector configuration requirements for connector : {0}</value>
+  </data>
+  <data name="SessionDataNotFound" xml:space="preserve">
+    <value>Session data not found for the key :{0}</value>
+  </data>
+  <data name="DataServiceCommunication" xml:space="preserve">
+    <value>An error occurred while communicating with the data services.</value>
+  </data>
+  <data name="MissingGuestLastName" xml:space="preserve">
+    <value>Guest Last Name is missing. Provide Names for All guests.</value>
+  </data>
+  <data name="SupplierFamilyMappingRead" xml:space="preserve">
+    <value>Error occured while reading supplier mapping.</value>
+  </data>
+  <data name="NoResultsForSearchCriteria" xml:space="preserve">
+    <value>There are no results for the search criteria provided. </value>
+  </data>
+  <data name="RoomsNotFound" xml:space="preserve">
+    <value>No rooms found for the search criteria provided.</value>
+  </data>
+  <data name="InvalidHotelIdsSkipped" xml:space="preserve">
+    <value>The following hotelIds were skipped because they were invalid: {0}.</value>
+  </data>
+  <data name="ResultsNotFoundOrFiltered" xml:space="preserve">
+    <value>Some of the requested hotel ids are either not found or filtered</value>
+  </data>
+  <data name="ExceededMaxRateCodes" xml:space="preserve">
+    <value>Maximum number of rate codes supported in one request are {0}</value>
+  </data>
+  <data name="RadiusExceedsPermittedLimit" xml:space="preserve">
+    <value>Search is executed within a radius of {0} KMs, as supplier doesn't allow to search in larger radius. </value>
+  </data>
+  <data name="SupplierDisabled" xml:space="preserve">
+    <value>{0} supplier is disabled. No operation executed on this supplier</value>
+  </data>
+  <data name="MultipleSearchPattern" xml:space="preserve">
+    <value>Multiple search patterns provided in the request. You can search either by the hotelId or the georegion not both.</value>
+  </data>
+  <data name="InvalidToken" xml:space="preserve">
+    <value>Please verify the token passed in the request. Token value must match the nextToken field from the earlier getResults call.</value>
+  </data>
+  <data name="InvalidRetrieveBookingRequest" xml:space="preserve">
+    <value>The booking reference number or duration field is required in the request.</value>
+  </data>
+  <data name="InvalidRetrieveDateInterval" xml:space="preserve">
+    <value>Retrieve from date can not be greater than To date.</value>
+  </data>
+  <data name="NoBookingsToRetrieve" xml:space="preserve">
+    <value>No bookings to retrieved for requested criteria</value>
+  </data>
+  <data name="NumOfRequestExceeded" xml:space="preserve">
+    <value>Number of request exceeded allowed limit.</value>
+  </data>
+</root>
